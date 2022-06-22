@@ -1,0 +1,32 @@
+body {
+    margin: 0px
+}
+
+.container {
+    display: flex; /* to activate flexbox */
+    flex-wrap: wrap; /* so that, depending on the screen size, it'll wrap what doesn't fit on that screen*/
+    justify-content: center;
+}
+
+h1 {
+    font-family: 'Homemade Apple', cursive;
+    font-size: 2.3em;
+    border-bottom: 2px solid pink;
+    border-right: 2px solid pink;
+    border-bottom-right-radius: 2px;
+    width: 400px;
+    box-shadow: 7px 7px 7px #888888;
+    text-align: center; /* center of the 400px width, not the whole page */
+    margin-top: 0px;
+}
+
+img {
+    width: 400px;
+    height: 300px;
+    margin: 10px;
+    transition: all 1s; /* all transitions applied will last 1 second, for example the transform on hover */
+}
+
+img:hover {
+    transform: scale(1.1); /* when u hover over the image make it get a little bigger */
+}

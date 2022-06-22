@@ -1,0 +1,28 @@
+/* comment */
+
+body {
+    background-image: url(https://images.unsplash.com/photo-1553095066-5014bc7b7f2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8d2FsbCUyMGJhY2tncm91bmR8ZW58MHx8MHx8&w=1000&q=80); 
+                            /* can be a url or a path to the file */
+    background-size: cover; /* adjusts the background image size to the website */
+    color: azure;
+}
+
+h2 {
+    color: #aff3ff; /* u can include the color with its Hex name, or RGB as seen later */
+    text-align: center;
+    border:4px dashed rgba(63, 233, 255, 0.5); /* state the width, type (dashed, solid, etc) and color 
+                                        of the border. rgba() is to include the RGB name of the color, and
+                                        the 4th value is opacity, from 0 to 1. */
+    cursor: pointer; /* so that ur cursor turns into the selecting hand when going over an h2 header*/
+}
+
+p {
+    color:rgb(0, 185, 231);
+    text-align: center;
+}
+
+li {
+    list-style: none; /* list-style: none so that it doesn't have bullet points or numbers */
+    display: inline-block; /* displays the list as an inline block */
+}
+

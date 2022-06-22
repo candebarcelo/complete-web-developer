@@ -1,0 +1,58 @@
+body,
+html {
+  width: 100%;
+  height: 100%; /* these r good so that we make sure the body and html cover the whole page. */
+  font-family: 'Montserrat', sans-serif;
+
+  /* this is to make the background image cover the whole background */
+  background: url(teeth.jpg) no-repeat center center fixed; /* don't repeat the image, keep it centered, 
+                                                            keep it fixed in place. */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1 {
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+
+hr {
+  margin: 20px auto;
+  color: #F05F44;
+  border: 3px solid #F05F44;
+  max-width: 65px;
+  opacity: 1;  
+}
+
+.row {
+  background-color: rgba(222, 233, 235, 0.6);
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem;
+}
+
+.buffer {
+  height: 6rem;
+}
+
+.btn {
+  font-weight: 700;
+  border-radius: 300px;
+  text-transform: uppercase;
+}
+
+.btn-primary {
+  background-color: #f05f44;
+  border-color: #f05f44;
+}
+
+.btn-primary:hover {
+  background-color: #ee4b08;
+  border-color: #ee4b08;
+  border-width: 4px;
+}
+
+.btn-xl {
+  padding: 1rem 2rem;
+}
